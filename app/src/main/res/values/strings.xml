@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProgMobUTS</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="sign_in_dosen">SIGN IN DOSEN</string>
+    <string name="si_krs">SI - KRS</string>
+    <string name="daftar_dosen">Daftar Dosen</string>
+    <string name="daftar_matkul">Daftar Matkul</string>
+    <string name="kelola_krs">Kelola KRS</string>
+    <string name="daftar_mhs">Daftar Mhs</string>
+    <string name="data_diri">Data Diri</string>
+    <string name="alamat">Alamat</string>
+    <string name="browse">Browse</string>
+    <string name="simpan">Simpan</string>
+    <string name="foto">Foto</string>
+    <string name="nama">Nama</string>
+    <string name="nidn">NIDN</string>
+    <string name="gelar">Gelar</string>
+    <string name="textview">TextView</string>
+    <string name="kode">Kode</string>
+    <string name="matkul">Mata Kuliah</string>
+    <string name="dosen">Dosen</string>
+    <string name="hari">Hari</string>
+    <string name="sesi">Sesi</string>
+    <string name="garis">-</string>
+    <string name="sks">SKS</string>
+    <string name="jumlah_mhs">Jumlah Mahasiswa</string>
+    <string name="nim">NIM</string>
+    <string name="kelas">Lihat Kelas</string>
+    <string name="daf_krs">Daftar KRS</string>
+    <string name="sign_in_admin">SIGN IN ADMIN</string>
+    <string name="daftar_dsn">Daftar Dosen</string>
+    <string name="daftar_makul">Daftar Matakuliah</string>
+    <string name="jml_sks">Jumlah SKS</string>
+    <string name="jml_mhs">Jumlah Mahasiswa</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasiuts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DataDiriAdmin" />
+        <activity android:name=".RecyclerViewKelas" />
+        <activity android:name=".DataDiriDosen" />
+        <activity android:name=".RecyclerViewMahasiswa" />
+        <activity android:name=".CreateMahasiswaActivity" />
+        <activity android:name=".RecyclerViewMatkul" />
+        <activity android:name=".CreateMatkulActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecyclerViewKrs" />
+        <activity android:name=".CreateKrsActivity" />
+        <activity android:name=".Adapter.KrsAdapter" />
+        <activity android:name=".RecyclerViewListDsn" />
+        <activity android:name=".CreateDosenActivity" />
+        <activity android:name=".DosenHome" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

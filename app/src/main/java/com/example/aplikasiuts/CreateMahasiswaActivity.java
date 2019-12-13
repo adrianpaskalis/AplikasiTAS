@@ -31,10 +31,10 @@ public class CreateMahasiswaActivity extends AppCompatActivity {
         });
 
 
-        editNama = findViewById(R.id.editNamaMhs);
+        editNamaMhs = findViewById(R.id.editNamaMhs);
         editNim = findViewById(R.id.editNimMhs);
-        editAlamat = findViewById(R.id.editAlamatMhs);
-        editEmail = findViewById(R.id.editEmailMhs);
+        editAlamatMhs = findViewById(R.id.editAlamatMhs);
+        editEmailMhs = findViewById(R.id.editEmailMhs);
 
     }
 

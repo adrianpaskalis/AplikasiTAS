@@ -1,15 +1,17 @@
 package com.example.aplikasiuts;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
-import com.example.aplikasiuts.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CreateDosenActivity extends AppCompatActivity {
+    EditText editNama, editNidn, editAlamat, editEmail, editGelar;
+    String nama, nidn, alamat, email, gelar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +27,40 @@ public class CreateDosenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        editNama = findViewById( R.id.editNamaMhs);
+        editNidn = findViewById( R.id.editNimMhs);
+        editAlamat = findViewById( R.id.editAlamatMhs);
+        editEmail = findViewById( R.id.editEmailMhs);
+        editGelar = findViewById( R.id.editGelar );
+
+    }
+
+    public void validasiData(){
+        nama = editNama.getText().toString();
+        nidn = editNidn.getText().toString();
+        alamat = editAlamat.getText().toString();
+        email = editEmail.getText().toString();
+        gelar = editGelar.getText().toString();
+
+        if (TextUtils.isEmpty(nama)){
+            editNama.setError ("Nama Harus Diisi");
+        }else if (TextUtils.isEmpty(nidn)) {
+            editNidn.setError( "NIdn Harus Diisi" );
+        }
+        if (TextUtils.isEmpty(alamat)) { editAlamat.setError( "Alamat Harus Doisi" );
+        }
+        if (TextUtils.isEmpty(email)) {
+            editEmail.setError( "Email Harus Diisi" );
+        }
+        if (TextUtils.isEmpty(gelar)) {
+            editGelar.setError( "Gelar Harus Diisi" );
+        }
     }
 }
+
+
+
+
+
+
